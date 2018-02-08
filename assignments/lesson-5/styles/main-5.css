@@ -1,0 +1,197 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    background: #f1f3f3;
+    font-family: roboto;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    font-family: roboto light;
+    padding: 0;
+    margin-bottom: -1.344em;
+    overflow: auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    float: left;
+}
+
+header img {
+    width: 50%;
+    float: inherit;
+    align-content: center;
+}
+
+header .subheading {}
+
+nav {
+    font-family: roboto black;
+}
+
+nav button {}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+    width: 80%;
+    background-color: #3c8ed2;
+}
+
+nav ul li {
+    border-bottom:2px solid #fff;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background-color: #B1D1ED;
+    color: #191919;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+nav ul li a:last-child {
+    border-bottom: none;
+}
+
+main {}
+
+main h2 {}
+
+main figure {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+main figure img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    
+    width: auto;
+    font-family: roboto light;
+    color: #000;
+}
+    .current {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    font-size: 2rem;
+    font-family: roboto black;
+}
+    .current p{
+    float: left;
+}
+    .current img{
+    height: 90px;
+    clear: left;
+}
+    .highlow {
+    clear: both;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 1em;
+}
+    .conditions {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid black;
+}
+    .forecast {
+    display: inline-block;
+    font-family: roboto black;    
+    }
+    .ttitle {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #3c8ed2;
+    color: #fff;
+}
+    table {
+    border-collapse: collapse;
+    border:0;
+}
+    table, th, td, thead, tbody {
+    border: 1px solid #fff;
+    width: auto;
+    background-color: #3c8ed2;
+    color: #fff;
+    display: block;
+}
+    th, td{
+    padding: 15px;
+}
+
+    tbody{
+    float: right;
+}
+    thead{
+    float: left;
+}
+
+
+article p.town-article img {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    width: ???;
+    /* fill the page in the small/phone view */
+    margin: ???;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-family: roboto light;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 0;
+    overflow: auto;
+}
+
+footer aside {}
+
+footer > p {}
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
