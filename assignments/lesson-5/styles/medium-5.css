@@ -104,5 +104,8 @@
         width: 62.666%;
         float: right;
     }
+    article p{
+        overflow: auto;
+    }
     /* responsive images */
 }

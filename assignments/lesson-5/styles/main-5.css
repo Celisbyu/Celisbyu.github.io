@@ -173,9 +173,9 @@ section {
 
 article p.town-article img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    width: ???;
+    width: 100px;
     /* fill the page in the small/phone view */
-    margin: ???;
+    margin: 2px;
 }
 
 footer {
