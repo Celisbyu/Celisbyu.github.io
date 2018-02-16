@@ -9,7 +9,7 @@
 body {
     font-size: 16px;
     background: #f1f3f3;
-    font-family: 'Roboto', helvetica, verdana;
+    font-family: roboto;
     /* Declare the base font-family - from google font api or other */
 }
 
@@ -48,9 +48,9 @@ nav {
     font-family: roboto black;
 }
 
-.hamburger {}
+nav button {}
 
-.navigation{
+nav ul {
     list-style-type: none;
     margin-top: 0px;
     margin-left: 30px;
@@ -60,27 +60,27 @@ nav {
     background-color: #3c8ed2;
 }
 
-.navigation li {
+nav ul li {
     border-bottom:2px solid #fff;
     text-align: center;
 }
 
-.navigation li a {
+nav ul li a {
     color: #fff;
     display: block;
     text-decoration: none;
 }
 
-.navigation li.active a {
+nav ul li.active a {
     background-color: #B1D1ED;
     color: #191919;
 }
 
-.navigation li a:hover {
+nav ul li a:hover {
     background-color: #555;
     color: #fff;
 }
-.navigation li a:last-child {
+nav ul li a:last-child {
     border-bottom: none;
 }
 
