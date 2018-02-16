@@ -19,20 +19,22 @@
         clear: left;
     }
     /* hamburger button does not need to be shown */
-    nav button {
+    .hamburger {
         display: none;
     }
-    nav ul {
+    .navigation {
         margin: 0px;
         overflow: hidden;
         width: 100%;
+        background-color: #3c8ed2;
+        text-align: center;
     }
 
-    nav ul li {
+    .navigation li {
         display: inline-block;
         border-bottom: none;
     }
-    nav ul li a {
+    .navigation li a {
         text-align: center;
         padding: 14px 16px;
     }

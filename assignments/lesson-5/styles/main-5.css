@@ -48,9 +48,9 @@ nav {
     font-family: roboto black;
 }
 
-nav button {}
+.hamburger {}
 
-nav ul {
+.navigation{
     list-style-type: none;
     margin-top: 0px;
     margin-left: 30px;
@@ -60,27 +60,27 @@ nav ul {
     background-color: #3c8ed2;
 }
 
-nav ul li {
+.navigation li {
     border-bottom:2px solid #fff;
     text-align: center;
 }
 
-nav ul li a {
+.navigation li a {
     color: #fff;
     display: block;
     text-decoration: none;
 }
 
-nav ul li.active a {
+.navigation li.active a {
     background-color: #B1D1ED;
     color: #191919;
 }
 
-nav ul li a:hover {
+.navigation li a:hover {
     background-color: #555;
     color: #fff;
 }
-nav ul li a:last-child {
+.navigation li a:last-child {
     border-bottom: none;
 }
 

@@ -19,6 +19,9 @@ main,
 footer {
     /* the comma means apply the following CSS declarations to all of the listed elements */
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 64rem;
+    align-content: center;
+    margin: auto;
 }
 
 header {
@@ -26,7 +29,6 @@ header {
     color: #fff;
     font-family: roboto light;
     padding: 0;
-    margin-bottom: -1.344em;
     overflow: auto;
     text-align: center;
 }
@@ -48,9 +50,10 @@ nav {
     font-family: roboto black;
 }
 
-nav button {}
+.hamburger {}
 
-nav ul {
+nav .navigation.responsive {
+    
     list-style-type: none;
     margin-top: 0px;
     margin-left: 30px;
@@ -60,27 +63,32 @@ nav ul {
     background-color: #3c8ed2;
 }
 
-nav ul li {
+.navigation li {
     border-bottom:2px solid #fff;
     text-align: center;
+    display: none;
 }
-
-nav ul li a {
+.navigation.responsive li {
+    border-bottom:2px solid #fff;
+    text-align: center;
+    display: block;
+}
+.navigation.responsive li a {
     color: #fff;
     display: block;
     text-decoration: none;
 }
 
-nav ul li.active a {
+.navigation.responsive li.active a {
     background-color: #B1D1ED;
     color: #191919;
 }
 
-nav ul li a:hover {
+.navigation.responsive li a:hover {
     background-color: #555;
     color: #fff;
 }
-nav ul li a:last-child {
+.navigation.responsive li a:last-child {
     border-bottom: none;
 }
 
@@ -100,8 +108,7 @@ main figure img {
     margin-left: auto;
     margin-right: auto;
 }
-section {
-    
+    section {
     width: auto;
     font-family: roboto light;
     color: #000;
@@ -137,37 +144,7 @@ section {
     border: 1px solid black;
 }
     .forecast {
-    display: inline-block;
-    font-family: roboto black;    
-    }
-    .ttitle {
-    border: 1px solid #fff;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    background-color: #3c8ed2;
-    color: #fff;
-}
-    table {
-    border-collapse: collapse;
-    border:0;
-}
-    table, th, td, thead, tbody {
-    border: 1px solid #fff;
-    width: auto;
-    background-color: #3c8ed2;
-    color: #fff;
-    display: block;
-}
-    th, td{
-    padding: 15px;
-}
-
-    tbody{
-    float: right;
-}
-    thead{
-    float: left;
+    display: none;
 }
 
 
