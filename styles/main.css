@@ -9,49 +9,49 @@ body {
     color: black;
     background-color: white;
 }
-/* The z-index was added to erase some of the lines on the profile img */
-h1 {
-    font-size: 1.3rem;
-    color: white;
-    text-align:center;
-    z-index: auto;
-}
-
-h2 {
-    font-size: 1.15rem;
-    text-align: center;
-    border-bottom: 1px solid #bbb;
-}
-/* The  li font size was big and I changed to be on the left */
-li{
-    font-size: 0.83rem;
-    text-align: left;
-
-}
-/* The z-index was added to erase some of the lines on the profile img */
-main{     
-    border-bottom: 1px solid #bbb;
-    z-index: 2;
-}
 header, main, footer {
     margin: 1rem auto;
     padding: .1rem;
     max-width: 57.5rem;
 }
-
 header, footer, footer a {
     text-align: center;
     background-color: midnightblue;
     color: whitesmoke;
 }
-
+header{
+    display: flex;
+    flex-flow: row;
+    align-content: space-around;
+}
+.studentName {
+    font-size: 1.3rem;
+    color: white;
+    flex: 1 1 auto;
+}
 header img {
-    width: auto;
-    height: auto;
-    float: right;
+    align-self: flex-end;
+}
+main{     
+    border-bottom: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 1.15rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+li{
+    font-size: 0.83rem;
+    text-align: left;
 }
 
-
 footer {
+    display: flex;
     font-size: 0.6rem;
+    flex-flow: row;
+}
+footer p{   
+    flex: 1 1 auto;
 }
