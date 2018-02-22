@@ -27,7 +27,8 @@ footer {
 header {
     background-color: #000;
     color: #fff;
-    font-family: 'Roboto 900';
+    font-family: 'Roboto';
+    font-weight: 900;
     padding: 0;
     overflow: auto;
     text-align: center;
@@ -48,7 +49,8 @@ header img {
 header .subheading {}
 
 nav {
-    font-family: 'Roboto 900';
+    font-family: 'Roboto';
+    font-weight: 900;
 }
 
 .hamburger {
@@ -124,7 +126,8 @@ main figure img {
 }
     .section1 {
     width: auto;
-    font-family: 'Roboto 300';
+    font-family: 'Roboto';
+    font-weight: 300;
     color: #000;
     display: flex;
     flex-flow: column nowrap;
@@ -174,7 +177,8 @@ article p.town-article img {
 footer {
     background-color: #000;
     color: #fff;
-    font-family: 'Roboto 300';
+    font-family: 'Roboto';
+    font-weight: 300;
     font-size: 0.875rem;
     text-align: center;
     padding: 0;
