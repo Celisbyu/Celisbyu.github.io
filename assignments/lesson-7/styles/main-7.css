@@ -27,7 +27,7 @@ footer {
 header {
     background-color: #000;
     color: #fff;
-    font-family: roboto light;
+    font-family: 'Roboto' light;
     padding: 0;
     overflow: auto;
     text-align: center;
@@ -124,7 +124,7 @@ main figure img {
 }
     .section1 {
     width: auto;
-    font-family: roboto light;
+    font-family: 'Roboto' light;
     color: #000;
     display: flex;
     flex-flow: column nowrap;
@@ -135,7 +135,7 @@ main figure img {
     height: 100px;
     margin: 0;
     font-size: 2rem;
-    font-family: roboto black;
+    font-family: 'Roboto' black;
     display: flex;
 }
     .current p{
@@ -174,7 +174,7 @@ article p.town-article img {
 footer {
     background-color: #000;
     color: #fff;
-    font-family: roboto light;
+    font-family: 'Roboto' light;
     font-size: 0.875rem;
     text-align: center;
     padding: 0;
