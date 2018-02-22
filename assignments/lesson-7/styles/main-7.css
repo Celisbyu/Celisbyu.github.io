@@ -134,6 +134,9 @@ main figure img {
     align-items: center;
 
 }
+.header {
+    align-self: flex-start;
+}
     .current {
     height: 100px;
     margin: 0;
@@ -150,18 +153,14 @@ main figure img {
     align-self: flex-end;
 }
     .highlow {
-    height: 100px;
+    min-height: 100px;
     border: 1px solid black;
     margin: 1em;
-    width: 260px;
-    
+    min-width: 150px;
 }
     .conditions {
-    height: 100px;
     margin: 1em;
     border: 1px solid black;
-    flex: 1 1 auto;
-    width: auto;
 }
     .forecast {
     display: none;

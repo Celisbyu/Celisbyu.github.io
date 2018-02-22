@@ -76,14 +76,14 @@
     
     .highlow {
         height: 100px;
-        margin: 1em;
+        margin: 0.5em;
         align-self: center;
     }
     .conditions {
         height: 100px;
-        margin: 1em;
+        margin: 0.5em;
         align-self: flex-end;
-        min-width: 270px;
+        min-width: 170px;
     }
     .forecast {
         margin-left: 5%;
