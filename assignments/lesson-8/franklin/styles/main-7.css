@@ -112,6 +112,7 @@ main figure {
     margin-right: auto;
     display: block;
 }
+
 .gallery {
     display: grid;
     grid-template-rows: 1fr;
@@ -290,7 +291,15 @@ input.submitBtn{
         box-sizing: border-box;
 }
 /*-----------------END OF FORM---------*/
-
+/*-----------------Thanks---------*/
+mainThanks {
+    display: grid;
+    grid-row: 0.2fr 1fr 0.1fr;
+}
+.thanksTitle{
+    text-align: center;
+}
+/*-----------------End of Thanks---------*/
 article p.town-article img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     width: 100px;
