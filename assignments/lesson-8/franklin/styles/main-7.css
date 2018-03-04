@@ -177,12 +177,17 @@ main figure img {
 }
 /*---------------End of Franklin-------------*/
 /*-----------------FORM--------------------*/
-.atentionTitle{
-    border-top-style: double;
+.stormCenter{
+    display: grid;
+    grid-row: 0.1fr 0.1fr 0.1fr 1fr;
 }
-.atention{
+.attentionTitle{
+    text-align: center;
+}
+.attention{
     margin-bottom: 100px;
     border-bottom-style: double;
+    font-size: 1.2rem;
 }
 form#conference {
     margin: 1em 3%;
@@ -190,9 +195,8 @@ form#conference {
 
 fieldset {
     background-color: #c9c9c2;
-    border-radius: .8em;
     margin: 1.5em 0;
-    border: #917a56 solid 1px;
+    border: none;
     display: block;
 }
 fieldset img{
@@ -201,11 +205,9 @@ fieldset img{
 legend{
     color: #000;
     font-weight: 900;
-    margin-left: 6%;
     padding: .5em;
-    border: #917a56 solid 1px;
-    background-color: #f2eee7;
-    border-radius: .4em;
+    border: none;
+    background-color: #F1F3F3;
 }
 label{
     display: block;
@@ -274,14 +276,14 @@ label span {
 input.submitBtn{
     -webkit-appearance: none; 
     color: #fff;
-    border: solid 1px #111;
+    border: none;
     border-radius: 7px;
     width: 50%;
     margin: .5em 0;
     font-size: 1em;
     padding: .6em;
-    background: #7d2a35;
-    box-shadow: 4px 4px 10px #666;
+    background: #3C8ED2;
+    font-weight: 700;
 }
     input, textarea, select, button {
         width : 150px;
