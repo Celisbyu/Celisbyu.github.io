@@ -82,7 +82,6 @@ nav .navigation.responsive {
     text-align: center;
     display: flex;
     flex-direction: column;
-    flex: 0 1 auto;
 }
 .navigation.responsive li a {
     color: #fff;
