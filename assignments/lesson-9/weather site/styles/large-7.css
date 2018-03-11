@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+  
+  article p.town-article img { width: 29.333%; }
+
+
+    .forecast {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+}
+    .image:hover {
+        box-shadow: 2px 2px 2px 2px #909090;
+    }
+    .image img:hover {
+        box-shadow: none;
+    }
+    .highlow {
+        flex: 1 1 auto;
+        margin: 1em;
+    }
+    .conditions {
+        max-width: none;
+        flex: 1 1 auto;
+        margin: 1em;
+    }
+        fieldset img{
+        display: block;
+        float: right;
+    }
+}
