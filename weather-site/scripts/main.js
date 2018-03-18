@@ -1,6 +1,6 @@
 var section = document.querySelector('main>section.franklinTowns');
 
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var requestURL = 'http://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
