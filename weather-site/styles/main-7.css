@@ -1,0 +1,425 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+html {
+    line-height: normal;
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    background: #f1f3f3;
+    font-family: 'Roboto', helvetica, verdana;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 64rem;
+    align-content: center;
+    margin: auto;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 900;
+    padding: 0;
+    overflow: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    align-content: center;
+    align-self: center;
+}
+
+header img {
+    align-self: center;
+}
+
+header .subheading {}
+
+nav {
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+.hamburger {
+    align-self: center;
+}
+
+nav .navigation.responsive {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+    background-color: #3c8ed2;
+    align-self: center;
+}
+
+.navigation li {
+    border-bottom:2px solid #fff;
+    text-align: center;
+    display: none;
+}
+.navigation.responsive li {
+    border-bottom:2px solid #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.navigation.responsive li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.navigation.responsive li.active a {
+    background-color: #B1D1ED;
+    color: #191919;
+}
+
+.navigation.responsive li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+.navigation.responsive li a:last-child {
+    border-bottom: none;
+}
+
+main {}
+
+main h2 {}
+/*---------------------Home------------*/
+.temperatureOnline{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2%;
+    padding: 0;
+    grid-column-gap: 2%;
+}
+
+.franklin{
+    display:flex;
+    flex-flow:column wrap;
+    border: 1px solid #000;
+}
+.franklin h1{
+    font-size: 1.5rem;
+    align-self: center;
+}
+.franklin h2{
+    font-size: 1.2rem;
+}
+.franklin p{
+    font-size: 0.8rem;
+}
+
+.franklin img{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.springfield{
+    display:flex;
+    flex-flow:column wrap;
+    border: 1px solid #000;
+}
+.springfield h1{
+    font-size: 1.5rem;
+}
+.springfield h2{
+    font-size: 1.2rem;
+}
+.springfield p{
+    font-size: 0.8rem;
+}
+
+
+.greenville{
+    display:flex;
+    flex-flow:column wrap;
+    border: 1px solid #000;
+}
+.greenville h1{
+    font-size: 1.5rem;
+}
+.greenville h2{
+    font-size: 1.2rem;
+}
+.greenville p{
+    font-size: 0.8rem;
+}
+
+
+/*-----------------End of home---------*/
+/*------------------------------------Franklin-----------------*/
+main figure {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.gallery {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 0.45em;
+    margin-bottom: 0.45em;
+}
+.image img:hover {
+    box-shadow: 2px 2px 2px 2px #909090;
+}
+main figure img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section1 {
+    width: auto;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #000;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.header {
+    align-self: flex-start;
+}
+    .current {
+    height: 100px;
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Roboto';
+    font-weight: 900;
+    display: flex;
+}
+    .current p{
+    align-self: flex-start;
+}
+    .current img{
+    height: 90px;
+    align-self: flex-end;
+}
+    .highlow {
+    min-height: 100px;
+    border: 1px solid black;
+    margin: 1em;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .highlow p{
+    margin: 2px;
+}
+    .conditions {
+    margin: 1em;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .conditions p{
+    margin: 2px;
+    }
+    .forecast {
+    display: none;
+}
+/*---------------End of Franklin-------------*/
+/*-----------------FORM--------------------*/
+.stormCenter{
+    display: grid;
+    grid-row: 0.1fr 0.1fr 0.1fr 1fr;
+}
+.attentionTitle{
+    text-align: center;
+}
+.attention{
+    margin-bottom: 100px;
+    border-bottom-style: double;
+    font-size: 1.2rem;
+}
+form#conference {
+    margin: 1em 3%;
+}
+
+fieldset {
+    background-color: #c9c9c2;
+    margin: 1.5em 0;
+    border: none;
+    display: block;
+}
+fieldset img{
+    display: none;
+}
+legend{
+    color: #000;
+    font-weight: 900;
+    padding: .5em;
+    border: none;
+    background-color: #F1F3F3;
+}
+label{
+    display: block;
+    margin: .5em;
+}
+label span {
+    display: block;
+    font-size: .9em;
+    color: #000;
+    font-weight: 900;
+    padding-top: .9em;
+    padding-bottom: .2em;
+}
+.rating span{
+    display: block;
+    font-size: .8em;
+    color: #000;
+    font-weight: 900;
+    padding-top: .9em;
+    padding-bottom: .2em;
+}
+#ratingvalue{
+    margin-left: 1%;
+    display:inline;
+}
+.danger {
+    display: flex;
+    flex-direction: column;
+    
+}
+.one {
+    display: flex;
+    flex-flow: row wrap;
+}
+.one p{
+    margin: 0;
+}
+.one input {
+    max-width: 20px;
+    margin-right: 30px;
+}
+.two{
+    display: flex;
+    flex-flow: row wrap;
+}
+.two p{
+    margin: 0;
+}
+.two input {
+    max-width: 20px;
+    margin-right: 30px;
+}
+
+.three{
+    display: flex;
+    flex-flow: row wrap;
+}
+.three p{
+    margin: 0;
+}
+.three input {
+    max-width: 20px;
+    margin-right: 30px;
+}
+
+input.submitBtn{
+    -webkit-appearance: none; 
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    width: 50%;
+    margin: .5em 0;
+    font-size: 1em;
+    padding: .6em;
+    background: #3C8ED2;
+    font-weight: 700;
+}
+    input, textarea, select, button {
+        width : 150px;
+        margin: 0;
+        -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+        -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+        box-sizing: border-box;
+}
+/*-----------------END OF FORM---------*/
+/*-----------------Thanks---------*/
+mainThanks {
+    display: grid;
+    grid-row: 0.2fr 1fr 0.1fr;
+}
+.thanksTitle{
+    text-align: center;
+}
+/*-----------------End of Thanks---------*/
+/*-----------------Index----------------*/
+
+.breakingNews{
+    display: block;
+}
+.breakingNews img{
+    float: right;
+}
+.breakingNews p{
+    overflow: auto;
+}
+.franklinTowns {
+    margin-top: 16%;
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0.20rem;
+}
+.franklinTowns article{
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid #000;
+}
+.franklinTowns article h2{
+    align-self: center;
+}
+/*-----------------End of Index---------*/
+article p.town-article img {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    width: 100px;
+    /* fill the page in the small/phone view */
+    margin: 2px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 0;
+    overflow: auto;
+}
+
+footer aside {}
+
+footer > p {}
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
