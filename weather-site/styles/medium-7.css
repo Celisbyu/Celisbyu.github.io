@@ -113,5 +113,15 @@
     article p{
         overflow: auto;
     }
+    .breakingNews img{
+    float: right;
+    width: 330px;
+    }
+    /*-----------------Index----------------*/
+.franklinTowns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/*-----------------End of Index---------*/
+    
     /* responsive images */
 }

@@ -378,6 +378,7 @@ mainThanks {
 }
 .breakingNews img{
     float: right;
+    width: 50%;
 }
 .breakingNews p{
     overflow: auto;
@@ -386,7 +387,7 @@ mainThanks {
     margin-top: 16%;
     clear: both;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-column-gap: 0.20rem;
 }
 .franklinTowns article{
